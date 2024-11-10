@@ -99,13 +99,13 @@ def main(message):
 ◆ 𝑩𝒀: @nub_kiing
 ◆𝑷𝑹𝑶𝑿𝒀𝑺: 𝑷𝑹𝑶𝑿𝒀 𝑳𝑰𝑽𝑬 ✅ '''
         print(last)
-        if 'Thank you for your message.' or 'Thank you for your message. We will get in touch with you shortly' in last:
+        if 'Thank you for your message.' in last or 'Thank you for your message. We will get in touch with you shortly' in last:
           live += 1
           bot.reply_to(message, msg)
-        elif 'security code is incorrect' in last or 'security code is invalid' or "Your card's security code is incorrect." in last:
+        elif 'security code is incorrect' in last or 'security code is invalid' in last or "Your card's security code is incorrect." in last:
           msg = f'''◆ 𝑪𝑨𝑹𝑫  ➜ {cc} 
 ◆ 𝑺𝑻𝑨𝑻𝑼𝑺 ➜ Approved! ✅
-◆ 𝑹𝑬𝑺𝑼𝑳𝑻 ➜ 𝘾𝘾𝙉 𝙇𝙄𝙑𝙀
+◆ 𝑹𝑬𝑺𝑼𝑳𝑻 ➜ Security code incorrect 
 ◆ 𝑮𝑨𝑻𝑬𝑾𝑨𝒀 ➜ 𝙎𝙏𝙍𝙄𝙋𝙀 $1
 ━━━━━━━━━━━━━━━━━
 ◆ 𝑩𝑰𝑵 ➜ {cc[:6]} - {dicr} - {typ} 
